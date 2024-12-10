@@ -27,7 +27,7 @@ We conducted experiments under
 - PyTorch 2.2.1, torchvision 0.17.1, torch-summary 1.4.5
 - Numpy 1.26.4
 
-Unzip data.zip which will create ./data folder containing balanced and unbalanced datasets.
+Unzip [data.zip](https://drive.google.com/file/d/1A2a5OOTdSApDOPJGdXfMpaYEyOWrvKMx/view?usp=sharing) which will create ./data folder containing balanced and unbalanced datasets.
 
 Check cli.py for the available parameters of the train.py script.
 Pre-trained PyTorch models accepted by the script via the `--arch` parameter are `resnet50`, `inception_v3`, `densenet121`, `densenet201`, `convnext_tiny` and `mobilenet_v3_large`.
@@ -60,7 +60,7 @@ $ python train.py ./data/unbalanced_sz_512_split --ftune-head fcn --ftune-strate
 ```
 
 ## Contact for Issues
-- Murat İlsever, murat.ilsever@gmail.com
+- Murat İlsever, murat.ilsever@std.yeditepe.edu.tr
 
 ## References
 - Mean-teacher: [paper](https://arxiv.org/abs/1703.01780), [code](https://github.com/CuriousAI/mean-teacher/tree/master)
